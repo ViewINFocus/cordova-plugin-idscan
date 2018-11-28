@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Barcode2DScanner.h</key>
 		<data>
-		ViEzrQ4HIzD8Fgy2y/4mwlWfzUw=
+		azS4TdZxYdDCTbkTeOwE1rax2Xo=
 		</data>
 		<key>Headers/BarcodeScanner.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G1s8nHufScnhiFN14pnrlso+OKw=
+		/AocpSoxq9Jy8Z/oAmq+Xu4hkwM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -24,17 +24,38 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/Barcode2DScanner.h</key>
-		<data>
-		ViEzrQ4HIzD8Fgy2y/4mwlWfzUw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			azS4TdZxYdDCTbkTeOwE1rax2Xo=
+			</data>
+			<key>hash2</key>
+			<data>
+			7cDD69X2HaeI77mFQg9ZCph+X6X/+psZnd1BmsWEm4k=
+			</data>
+		</dict>
 		<key>Headers/BarcodeScanner.h</key>
-		<data>
-		+CKvtpnKBKxYTC8wnBWjQrRMC04=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+CKvtpnKBKxYTC8wnBWjQrRMC04=
+			</data>
+			<key>hash2</key>
+			<data>
+			OR6FvTM4VfcVgRBZiBk12x6d+di9oTNK0X1rNyl5xSA=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		3e59bbh76ALumN3bsw7mxmJpkK4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			3e59bbh76ALumN3bsw7mxmJpkK4=
+			</data>
+			<key>hash2</key>
+			<data>
+			N681jPpRJ99kltfjJfn5kCpreMnFbGvCaxrDZ5qYddY=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -53,6 +74,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -98,6 +124,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

@@ -32,6 +32,7 @@
 
 
 - (BOOL)parseDLString:(NSString *)inputString hideSerialAlert:(BOOL)hideSerialAlert;
+- (NSString*)getVersion;
 +(NSString*)dlpUniqueId;
 //addon init
 - (id)initWithInput:(NSString*)tracksString parseSucced:(BOOL**)success  hideSerialAlert:(BOOL)hideSerialAlert;
